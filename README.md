@@ -4,7 +4,7 @@ This is a small side project demonstrating real-time object detection using the 
 
 ## Live Demo
 
-You can find a live demo of this project [here](https://ai-object-detection-omega.vercel.app/). (Replace "#" with your live URL)
+You can find a live demo of this project [here](https://ai-object-detection-omega.vercel.app/).
 
 ## Features
 
