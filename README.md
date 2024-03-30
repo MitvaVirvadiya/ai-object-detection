@@ -1,52 +1,65 @@
-# AI Object Detection using TensorFlow COCO-SSD Model
+# AI Object Detection with COCO-SSD and Next.js
 
-This project demonstrates real-time object detection using TensorFlow's COCO-SSD (Common Objects in Context - Single Shot Multibox Detector) model. The model is capable of detecting and localizing multiple objects in an image with high accuracy and efficiency.
+This is a small side project demonstrating real-time object detection using the COCO-SSD model with TensorFlow.js integrated into a Next.js application styled with Tailwind CSS.
 
 ## Live Demo
 
-Check out the live demo [here](https://your-live-url.com).
+You can find a live demo of this project [here](https://ai-object-detection-omega.vercel.app/). (Replace "#" with your live URL)
 
-## Usage
+## Features
 
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/your-username/ai-object-detection.git
-    ```
-
-2. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Run the application:
-    ```bash
-    python app.py
-    ```
-
-4. Open your web browser and go to `http://localhost:3000` to access the application.
-
-## Demo
-- Live URL: [https://ai-object-detection-omega.vercel.app/](https://ai-object-detection-omega.vercel.app/)
-
-![Demo](demo.gif)
-
-## Model
-
-The COCO-SSD model used in this project is pre-trained on the COCO dataset, which contains 80 object categories. The model architecture is a combination of deep neural networks designed for object detection tasks.
+- **Real-time Object Detection**: Utilizes the COCO-SSD model to detect objects in real-time through a webcam feed.
+- **Next.js Framework**: Built on top of Next.js, providing a powerful and intuitive development experience.
+- **Tailwind CSS Styling**: Styled using Tailwind CSS for quick and easy UI development.
 
 ## Technologies Used
 
-- TensorFlow
-- Flask
-- HTML
-- CSS
-- JavaScript
+- **TensorFlow.js**: An open-source library for machine learning in JavaScript, used here for object detection.
+- **COCO-SSD Model**: A pre-trained model for object detection available in TensorFlow.js.
+- **Next.js**: A React framework for building server-rendered applications.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs.
 
-## Credits
+## Getting Started
 
-- TensorFlow Object Detection API: [https://github.com/tensorflow/models/tree/master/research/object_detection](https://github.com/tensorflow/models/tree/master/research/object_detection)
-- COCO-SSD Model: [https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd](https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd)
+To get a local copy of this project up and running, follow these steps:
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone <repository-url>
+    ```
+
+2. **Install dependencies**:
+
+    ```bash
+    cd <project-folder>
+    npm install
+    ```
+
+3. **Start the development server**:
+
+    ```bash
+    npm run dev
+    ```
+
+4. **Open your browser**:
+
+    Visit [http://localhost:3000](http://localhost:3000) to view the application.
+
+## Usage
+
+Once the application is running, you should see a webcam feed. The COCO-SSD model will start detecting objects in real-time. Feel free to interact with the application by placing different objects in front of your webcam.
+
+## Contributing
+
+Contributions are welcome! If you have any ideas, improvements, or issues, please open an issue or submit a pull request.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Special thanks to the TensorFlow.js team for their amazing work on making machine learning accessible in the browser.
+- Thanks to the creators of COCO-SSD for providing a high-quality object detection model.
+- Hat tip to the Next.js and Tailwind CSS communities for their excellent frameworks and resources.
